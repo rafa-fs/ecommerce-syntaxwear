@@ -1,11 +1,8 @@
 /* Reset CSS baseado no modelo do Andy Bell */
-:where(:root, :root::before, :root::after) {
-  box-sizing: border-box;
-}
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -96,4 +93,8 @@ table {
 
 html:focus-within {
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }
