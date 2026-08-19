@@ -3,3 +3,37 @@ body {
     color: #333333;
     background-color: #000000;
 }
+
+.btn {
+    font-size: 1.25rem;
+    height: 48px;
+    font-weight: 500;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 10px 40px;
+    transition: background-color 0.3s, border 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    flex-shrink: 0;
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    color: #6329A2;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
+}
