@@ -48,9 +48,10 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    margin-left: 10.5rem;
 }
 
 .menu-toggle {
